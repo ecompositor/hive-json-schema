@@ -93,10 +93,11 @@ public class JsonHiveSchema  {
     @SuppressWarnings("unchecked")
     Iterator<String> keys = jo.keys();
     keys = new OrderedIterator(keys);
-    StringBuilder sb = new StringBuilder("CREATE TABLE ").append(tableName).append(" (\n");
+    StringBuilder sb = new StringBuilder("CREATE EXTERNAL TABLE ").append("`" + tableName + "`").append(" (\n");
 
     while (keys.hasNext()) {
       String k = keys.next();
+
       sb.append("  ");
       sb.append(k.toString());
       sb.append(' ');
@@ -116,7 +117,7 @@ public class JsonHiveSchema  {
     
     while (keys.hasNext()) {
       String k = keys.next();
-      sb.append(k.toString());
+      sb.append("`" + k.toString() + "`");
       sb.append(':');
       sb.append(valueToHiveSchema(o.opt(k)));
       sb.append(", ");
@@ -151,7 +152,7 @@ public class JsonHiveSchema  {
     if (o instanceof String) return "string";
     if (o instanceof Number) return scalarNumericType(o);
     if (o instanceof Boolean) return "boolean";
-    return null;
+    return "string"; // athena does not like null
   }
 
   private String scalarNumericType(Object o) {

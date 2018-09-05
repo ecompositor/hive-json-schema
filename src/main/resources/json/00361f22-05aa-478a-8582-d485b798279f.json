@@ -1,0 +1,480 @@
+{
+    "session_id": "98ab630e-b816-4be1-b069-d38a6680ae52",
+    "execution_id": "00361f22-05aa-478a-8582-d485b798279f",
+    "ip_address": "98.221.252.3",
+    "account_id": "8499051640170423",
+    "product_number": "21006",
+    "download_speed": "250",
+    "line_items": [
+        {
+            "source": "csp",
+            "record": {
+                "current": true,
+                "id": "8499051640170423"
+            },
+            "session_id": "98ab630e-b816-4be1-b069-d38a6680ae52",
+            "line_item_id": "account"
+        },
+        {
+            "source": "csp",
+            "record": {
+                "retriable": false,
+                "code": "SH404.127.2",
+                "message": "Customer doesn't have any eligible devices to swap",
+                "requestId": "b441f2c8-a9a1-4834-5802-8c9ae921b420",
+                "cspSource": false
+            },
+            "session_id": "98ab630e-b816-4be1-b069-d38a6680ae52",
+            "line_item_id": "csp_device_swap"
+        },
+        {
+            "source": "csp",
+            "record": {
+                "images": {
+                    "mobileImageLarge": "http://secure.xfinity.com/anon.comcastonline2/support/help/faqs/device_images/DeviceGallery/Wireless_Gateway/Wireless_Gateway_3/Arris/TG1682G/Arris_TG1682G_Front_HD1.png",
+                    "x2ImageLarge": "http://secure.xfinity.com/anon.comcastonline2/support/help/faqs/device_images/DeviceGallery/Generic_app/hub_generic_STB.png",
+                    "webImageLarge": "https://secure.xfinity.com/anon.comcastonline2/support/help/faqs/device_images/DeviceGallery/Wireless_Gateway/Wireless_Gateway_3/Arris/TG1682G/Arris_TG1682G_Front_HD1.png"
+                },
+                "serialNumber": "5C8FE0B7DB54",
+                "activationStatus": "ACTIVE",
+                "wifiValidation": null,
+                "siEnabled": true,
+                "responseStatus": {
+                    "SI": {
+                        "responseStatus": null,
+                        "status": "SUCCESS"
+                    }
+                },
+                "mac": "5C:8F:E0:B7:DB:54",
+                "connectedDevices": null,
+                "wiFiNetworks": null,
+                "gatewayType": "DUAL_BAND",
+                "bridgeMode": null,
+                "model": "TG1682G",
+                "id": "0489a9e10ee8e769e4e0c9dbd465e609%3A5C8FE0B7DB54%3Atg1682g",
+                "wifiExtenders": null,
+                "make": "ARRIS Group, Inc.",
+                "firmware": null,
+                "friendlyName": "Voice and Data Modem",
+                "createDate": "2015-09-30"
+            },
+            "session_id": "98ab630e-b816-4be1-b069-d38a6680ae52",
+            "line_item_id": "csp_gateway"
+        },
+        {
+            "source": "csp",
+            "record": {
+                "tier": {
+                    "uploadSpeed": 10,
+                    "tierOfService": "Blast Tier",
+                    "productNumber": "21006",
+                    "downloadSpeed": 250
+                }
+            },
+            "session_id": "98ab630e-b816-4be1-b069-d38a6680ae52",
+            "line_item_id": "csp_internet_service_details"
+        },
+        {
+            "source": "csp",
+            "record": {
+                "voice": {
+                    "outages": []
+                },
+                "statusTimeInMillis": 1.534726345575E12,
+                "statusTime": "2018-08-20T00:52:25.575Z",
+                "video": {
+                    "outages": []
+                },
+                "internet": {
+                    "outages": []
+                },
+                "status": "NO_OUTAGES",
+                "home": {
+                    "outages": []
+                }
+            },
+            "session_id": "98ab630e-b816-4be1-b069-d38a6680ae52",
+            "line_item_id": "csp_outages"
+        },
+        {
+            "source": "ptdb",
+            "record": {
+                "base_created_by": "GwynnImport",
+                "cpe_name": "TG1682G",
+                "device_type": "Broadband",
+                "base_stamp_created": "2017-04-11 19:55:43",
+                "manufacturer": "Arris",
+                "lifecycle": "NA",
+                "deployment_model_base_id": "788",
+                "alias": "XB3",
+                "model": "TG1682G",
+                "base_import_state": "PUBLISH",
+                "deployment_network_type": "None",
+                "device_id": "484",
+                "lifecycle_date": "None",
+                "spec_milestone": "Issued",
+                "created_by": "None",
+                "stamp_updated": "2017-10-25 20:38:30",
+                "deployment_model_id": "1800",
+                "deployment_model_base_list": "TG1682G",
+                "ownership": "Customer",
+                "deployment_software_type": "None",
+                "base_stamp_updated": "2017-10-25 20:38:30",
+                "device_class": "Wireless Gateway",
+                "stamp_created": "2017-04-11 19:55:43",
+                "comment": "None",
+                "deployment_model_list": "TG1682G [NA], TG1682G [Comcast], TG1682G [Customer]",
+                "import_state": "PUBLISH"
+            },
+            "session_id": "98ab630e-b816-4be1-b069-d38a6680ae52",
+            "line_item_id": "ptdb_gateway"
+        },
+        {
+            "source": "speedtest-web",
+            "record": {
+                "resolution_width": 800,
+                "is_app_webview": false,
+                "is_tablet": false,
+                "is_smartphone": false,
+                "is_robot": false,
+                "advertised_device_os": "Windows",
+                "is_smarttv": false,
+                "max_image_width": 800,
+                "physical_screen_height": 400,
+                "model_name": "Chrome",
+                "pointing_method": "mouse",
+                "resolution_height": 600,
+                "is_mobile": false,
+                "is_full_desktop": true,
+                "advertised_browser": "Chrome",
+                "brand_name": "Google",
+                "manufacturer_name": null,
+                "max_image_height": 600,
+                "complete_device_name": "Google Chrome",
+                "physical_screen_width": 400,
+                "advertised_browser_version": "68.0.3440.106",
+                "marketing_name": null,
+                "form_factor": "Desktop",
+                "advertised_device_os_version": 10
+            },
+            "session_id": "98ab630e-b816-4be1-b069-d38a6680ae52",
+            "line_item_id": "wurfl"
+        }
+    ],
+    "execution_items": [
+        {
+            "source": "https://odp-prod.codebig2.net/api/v1/operational/gateway-cpe/5C8FE0B7DB54/devices/interface_data/latest",
+            "execution_id": "00361f22-05aa-478a-8582-d485b798279f",
+            "record": {
+                "cpe_status": "reachable",
+                "last_interface_report_cpe_timestamp": 1.534726711E9,
+                "message": "Success",
+                "data": [
+                    {
+                        "device_mac": "DC0C5CE4DACC",
+                        "service_type": "PRIVATE",
+                        "rssi": -68,
+                        "phy_rx_rate": 702,
+                        "time_stamp": 1.534726711E9,
+                        "wifi_operating_standard": "ac",
+                        "wifi_channel_bandwidth": "80MHz",
+                        "phy_tx_rate": 585,
+                        "radio_channel": 149,
+                        "interface_type": "WIFI",
+                        "ssid": null,
+                        "interface_mac": null
+                    },
+                    {
+                        "device_mac": "C04A009E5295",
+                        "service_type": "PRIVATE",
+                        "rssi": -75,
+                        "phy_rx_rate": 68,
+                        "time_stamp": 1.534720069E9,
+                        "wifi_operating_standard": "n",
+                        "wifi_channel_bandwidth": "20MHz",
+                        "phy_tx_rate": 30,
+                        "radio_channel": 1,
+                        "interface_type": "WIFI",
+                        "ssid": null,
+                        "interface_mac": null
+                    },
+                    {
+                        "device_mac": "B005942BDE2B",
+                        "service_type": "PRIVATE",
+                        "rssi": -81,
+                        "phy_rx_rate": 80,
+                        "time_stamp": 1.534720069E9,
+                        "wifi_operating_standard": "n",
+                        "wifi_channel_bandwidth": "20MHz",
+                        "phy_tx_rate": 32,
+                        "radio_channel": 1,
+                        "interface_type": "WIFI",
+                        "ssid": null,
+                        "interface_mac": null
+                    },
+                    {
+                        "device_mac": "AC162D8F9C1B",
+                        "service_type": "PRIVATE",
+                        "rssi": -33,
+                        "phy_rx_rate": 72,
+                        "time_stamp": 1.534720069E9,
+                        "wifi_operating_standard": "n",
+                        "wifi_channel_bandwidth": "20MHz",
+                        "phy_tx_rate": 71,
+                        "radio_channel": 1,
+                        "interface_type": "WIFI",
+                        "ssid": null,
+                        "interface_mac": null
+                    },
+                    {
+                        "device_mac": "1C1EE303F41B",
+                        "service_type": "PRIVATE",
+                        "rssi": -57,
+                        "phy_rx_rate": 111,
+                        "time_stamp": 1.534720069E9,
+                        "wifi_operating_standard": "n",
+                        "wifi_channel_bandwidth": "20MHz",
+                        "phy_tx_rate": 144,
+                        "radio_channel": 1,
+                        "interface_type": "WIFI",
+                        "ssid": null,
+                        "interface_mac": null
+                    },
+                    {
+                        "device_mac": "1C1AC08A9309",
+                        "service_type": "PRIVATE",
+                        "rssi": -77,
+                        "phy_rx_rate": 108,
+                        "time_stamp": 1.534726711E9,
+                        "wifi_operating_standard": "n",
+                        "wifi_channel_bandwidth": "40MHz",
+                        "phy_tx_rate": 54,
+                        "radio_channel": 149,
+                        "interface_type": "WIFI",
+                        "ssid": null,
+                        "interface_mac": null
+                    },
+                    {
+                        "device_mac": "18CF5E48E3CD",
+                        "service_type": "PRIVATE",
+                        "rssi": -57,
+                        "phy_rx_rate": 72,
+                        "time_stamp": 1.534726711E9,
+                        "wifi_operating_standard": "n",
+                        "wifi_channel_bandwidth": "20MHz",
+                        "phy_tx_rate": 72,
+                        "radio_channel": 1,
+                        "interface_type": "WIFI",
+                        "ssid": null,
+                        "interface_mac": null
+                    }
+                ],
+                "status": 200,
+                "last_interface_report_timestamp": 1.534726711E9
+            },
+            "session_id": "98ab630e-b816-4be1-b069-d38a6680ae52"
+        },
+        {
+            "source": "https://odp-prod.codebig2.net/api/v1/operational/gateway-cpe/5C8FE0B7DB54/devices/summary",
+            "execution_id": "00361f22-05aa-478a-8582-d485b798279f",
+            "record": {
+                "data": [
+                    {
+                        "connection_interface": "Ethernet",
+                        "hostname": "st-24FD5B000003C3FA",
+                        "service_type": "PRIVATE",
+                        "device_mac": "24FD5B03C3D8",
+                        "is_active": true,
+                        "device_parent": "5C8FE0B7DB54",
+                        "last_seen_offline_time": null,
+                        "device_type": "CLIENT_DEVICE",
+                        "fingerprint_data": {
+                            "is_4k_device": false,
+                            "dhcp_hostname": null,
+                            "device_model": "SmartThings IoT Device",
+                            "device_brand": "SmartThings",
+                            "model_accuracy_level": 5,
+                            "operating_system": "N/A",
+                            "device_type": "IOT",
+                            "is_streaming_device": false
+                        },
+                        "ip_address": "10.0.0.72",
+                        "last_seen_online_time": 1.53472635E9,
+                        "manufacturer": "Smartthi"
+                    },
+                    {
+                        "connection_interface": "Ethernet",
+                        "hostname": "WNR1000v2",
+                        "service_type": "PRIVATE",
+                        "device_mac": "A021B7932543",
+                        "is_active": true,
+                        "device_parent": "5C8FE0B7DB54",
+                        "last_seen_offline_time": null,
+                        "device_type": "CLIENT_DEVICE",
+                        "fingerprint_data": {
+                            "is_4k_device": false,
+                            "dhcp_hostname": null,
+                            "device_model": "R6230",
+                            "device_brand": "NETGEAR",
+                            "model_accuracy_level": 10,
+                            "operating_system": "N/A",
+                            "device_type": "ROUTER",
+                            "is_streaming_device": false
+                        },
+                        "ip_address": "10.0.0.45",
+                        "last_seen_online_time": 1.53472635E9,
+                        "manufacturer": "Netgear"
+                    },
+                    {
+                        "connection_interface": "Wi-Fi 2.4GHz",
+                        "hostname": "My-iphone",
+                        "service_type": "PRIVATE",
+                        "device_mac": "DC0C5CE4DACC",
+                        "is_active": true,
+                        "device_parent": "5C8FE0B7DB54",
+                        "last_seen_offline_time": null,
+                        "device_type": "CLIENT_DEVICE",
+                        "fingerprint_data": {
+                            "is_4k_device": false,
+                            "dhcp_hostname": "My-iphone",
+                            "device_model": "iPhone 7 Plus",
+                            "device_brand": "Apple",
+                            "model_accuracy_level": 10,
+                            "operating_system": "iOS",
+                            "device_type": "PHONE",
+                            "is_streaming_device": true
+                        },
+                        "ip_address": "10.0.0.56",
+                        "last_seen_online_time": 1.53472635E9,
+                        "manufacturer": "Apple"
+                    },
+                    {
+                        "connection_interface": "Wi-Fi 2.4GHz",
+                        "hostname": "Fatens-PC",
+                        "service_type": "PRIVATE",
+                        "device_mac": "18CF5E48E3CD",
+                        "is_active": true,
+                        "device_parent": "5C8FE0B7DB54",
+                        "last_seen_offline_time": null,
+                        "device_type": "CLIENT_DEVICE",
+                        "fingerprint_data": {
+                            "is_4k_device": false,
+                            "dhcp_hostname": "Fatens-PC",
+                            "device_model": "Windows PC/Laptop",
+                            "device_brand": "Generic Brand",
+                            "model_accuracy_level": 6,
+                            "operating_system": "Windows 10",
+                            "device_type": "COMPUTER",
+                            "is_streaming_device": true
+                        },
+                        "ip_address": "10.0.0.93",
+                        "last_seen_online_time": 1.53472635E9,
+                        "manufacturer": "LiteonTe"
+                    },
+                    {
+                        "connection_interface": "Ethernet",
+                        "hostname": "f8:a9:63:c0:e2:ac",
+                        "service_type": "PRIVATE",
+                        "device_mac": "F8A963C0E2AC",
+                        "is_active": false,
+                        "device_parent": null,
+                        "last_seen_offline_time": 1.53472635E9,
+                        "device_type": "CLIENT_DEVICE",
+                        "ip_address": null,
+                        "last_seen_online_time": null,
+                        "manufacturer": "CompalIn"
+                    },
+                    {
+                        "connection_interface": "Wi-Fi 2.4GHz",
+                        "hostname": "1C:1A:C0:8A:93:09",
+                        "service_type": "PRIVATE",
+                        "device_mac": "1C1AC08A9309",
+                        "is_active": true,
+                        "device_parent": "5C8FE0B7DB54",
+                        "last_seen_offline_time": null,
+                        "device_type": "CLIENT_DEVICE",
+                        "fingerprint_data": {
+                            "is_4k_device": false,
+                            "dhcp_hostname": "Apple-TV-2",
+                            "device_model": "Apple-TV 3",
+                            "device_brand": "Apple",
+                            "model_accuracy_level": 10,
+                            "operating_system": "tvOS",
+                            "device_type": "STREAMING VIDEO DEVICE",
+                            "is_streaming_device": true
+                        },
+                        "ip_address": "10.0.0.6",
+                        "last_seen_online_time": 1.53472635E9,
+                        "manufacturer": "Apple"
+                    },
+                    {
+                        "connection_interface": "Ethernet",
+                        "hostname": "1c:1a:c0:8a:93:0a",
+                        "service_type": "PRIVATE",
+                        "device_mac": "1C1AC08A930A",
+                        "is_active": false,
+                        "device_parent": null,
+                        "last_seen_offline_time": 1.53472635E9,
+                        "device_type": "CLIENT_DEVICE",
+                        "ip_address": null,
+                        "last_seen_online_time": null,
+                        "manufacturer": "Apple"
+                    }
+                ],
+                "last_summary_report_timestamp": 1.53472635E9,
+                "host_table_version": 121793,
+                "last_summary_report_cpe_timestamp": 1.53472635E9,
+                "source": "db fetched_cpe_devices_summary table",
+                "message": "Success",
+                "status": 200
+            },
+            "session_id": "98ab630e-b816-4be1-b069-d38a6680ae52"
+        },
+        {
+            "source": "speedtest-web",
+            "execution_id": "00361f22-05aa-478a-8582-d485b798279f",
+            "record": [
+                {
+                    "CLIENT_ISP": "Comcast Cable Communications, LLC",
+                    "CLIENT_IPV4_ADDRESS": "98.221.252.3",
+                    "CLIENT_IPV6_ADDRESS": "2601:88:8103:67c2:806c:9563:936:66ee",
+                    "IPV4_DOWNLOAD_MBPS": "--",
+                    "SERVER_HOSTNAME": "qoecnf-seca-02.sys.comcast.net",
+                    "IPV4_DOWNLOAD_PEAK": "--",
+                    "CLIENT_LONGITUDE": "-74.9162",
+                    "DIVISION": "NorthEast",
+                    "PLATFORM": "linux",
+                    "IPV6_DOWNLOAD_PEAK": "62.31",
+                    "BROWSER_VERSION": "68.0.3440.106",
+                    "IPV6_UPLOAD_MBPS": "12.50",
+                    "ipv6DownloadData": "22.187199999999997,27.0844,32.204800000000006,32.75832888888888,32.890124444444446,33.196799999999996,33.34727111111111,33.408000000000015,34.4448,34.8672,35.731199999999994,35.7376,35.740346666666674,35.974399999999996,36.0528,36.486399999999996,38.464,39.2192,39.222,39.900346666666664,40.17888,42.2464,42.803200000000004,44.407199999999996,44.5888,45.017599999999995,46.6368,47.85919999999999,48.29280000000001,48.48068571428571,48.66342222222222,49.347,49.51314666666666,49.85777777777778,50.403323076923066,50.471999999999994,50.579626666666655,50.635999999999996,50.67719999999999,50.71958,50.7672,50.87519999999999,51.02787428571428,51.83237647058823,54.617599999999996,54.887351111111094,55.96895111111111,56.77464,57.241599999999984,57.3091111111111,57.33869333333333,57.36295999999998,57.47863999999999,57.70879999999998,57.798640000000006,58.12504,58.60176888888889,58.675439999999995,58.71735111111112,59.343413333333324,59.69076444444444,59.7696,59.80159999999999,60.419511111111106,60.42074666666666,60.61236444444444,60.817919999999994,60.99214222222221,61.030639999999984,61.03789333333332,61.173057777777785,61.38989333333333,61.39534222222221,61.675146666666656,61.75782222222222,61.79636444444446,61.80176888888887,61.933893333333316,62.31149333333334,62.48984000000001,62.650693333333344,63.15467555555555,63.67384000000001,64.13037333333332,64.42363555555556,64.9313688888889,65.47224,66.31746666666666",
+                    "RESULT_DATE": "2018-08-19 20:58:57",
+                    "SERVER_NAME": null,
+                    "CIMA_LOGGED_IN": true,
+                    "IPV4_UPLOAD_MBPS": "--",
+                    "SERVER_SITENAME": "Secaucus, NJ",
+                    "ipv4DownloadData": null,
+                    "IPV6_DOWNLOAD_MBPS": "56.12",
+                    "TEST_METHOD": "http",
+                    "CLIENT_LATITUDE": "39.9572",
+                    "IPV4_LATENCY": "--",
+                    "MARKET": "New Jersey",
+                    "DEFAULT_SERVER_ID": 121,
+                    "IPV6": 1,
+                    "ipv6UploadData": "0.20,0.20,0.20,5.07,9.23,12.44,13.57,13.14,12.81,12.28,11.58,11.52,11.67,12.00,12.45,12.49,12.45,12.39,13.04,13.68,13.73,12.69,11.93,11.18,10.89,11.99,13.17,14.68,15.63,15.81,15.84,15.72,15.54,15.41,15.50,15.54,15.59,15.63,16.23,16.83,16.78,16.58,16.37,15.44,14.35,13.16,12.60,12.42,11.93,11.91,11.89,12.29,12.73,12.62,12.60,12.51,12.44,12.59,12.68,12.93,13.13,13.06,13.10,13.00,13.10,13.22,13.65,13.53,13.34,12.96,12.43,12.51,12.47,12.36,12.14,11.80,11.76,11.85,12.01,12.29,12.29,12.27,12.14,12.07,11.98,12.00,12.09,12.11,12.20,12.12,12.09,12.23,12.36,12.51,12.23,11.87,11.61,11.43,11.71,11.74,11.92,11.92,11.94,11.94,11.72",
+                    "IPV4_UPLOAD_PEAK": "--",
+                    "ACCOUNTNAME": "398115490826052012Comcast.USRIMS",
+                    "IPV6_LATENCY": 20,
+                    "CIMA_USERNAME": "fknakhla1",
+                    "OPERATIVE_SYSTEM": "Linux",
+                    "REGION": "Freedom",
+                    "supportWebSocket": true,
+                    "IPV6_UPLOAD_PEAK": "16.37",
+                    "BROWSER_NAME": "chrome",
+                    "ipv4UploadData": null
+                }
+            ],
+            "session_id": "98ab630e-b816-4be1-b069-d38a6680ae52"
+        }
+    ]
+}
